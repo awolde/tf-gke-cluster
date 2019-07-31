@@ -2,7 +2,7 @@ How to use this module
 =========
 ```
 module "cicd-gke" {
-  source = "git::ssh://git@github.com/awolde/deploy-kickstart-gke-cluster"
+  source = "git::ssh://git@github.com/awolde/tf-gke-cluster"
   project_id = "your-project-id"
   region = "us-central1"
   cluster_name = "gke-cluster"
